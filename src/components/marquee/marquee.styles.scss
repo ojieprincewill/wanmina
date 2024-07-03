@@ -1,0 +1,24 @@
+.marquee {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  overflow: hidden;
+
+  p {
+    margin: 12px 0;
+    padding: 0 10px;
+    white-space: nowrap;
+    font-size: 18px;
+    color: #fff;
+    // animation: scroll 15s linear infinite;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

@@ -1,0 +1,74 @@
+.community {
+  margin: 150px 0 100px;
+  padding: 0 5%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 40px;
+  place-items: center;
+
+  .agnee-image-cont {
+    width: 100%;
+    height: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    .agnee-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .community-text-cont {
+    margin: 50px 0 0;
+    width: 90%;
+
+    .community-title {
+      font-size: 2.2rem;
+      font-weight: 600;
+      text-transform: capitalize;
+      color: #fff;
+      margin: 0 0 18px;
+    }
+
+    .community-quote {
+      font-size: 14px;
+      margin: 0 0 22px;
+      color: #e6e6e6;
+    }
+
+    .community-text {
+      font-size: 14px;
+      line-height: 1.7;
+      margin: 0 0 22px;
+      color: #e6e6e6;
+    }
+
+    .join-btn {
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 14px;
+      border: none;
+      border-radius: 6px;
+      outline: none;
+      padding: 12px 40px;
+      // background: transparent;
+      background: #041023;
+      //   background-image: linear-gradient(to bottom, #b0186a 0%, #1351b1 100%);
+      color: #fff;
+      cursor: pointer;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        // filter: blur(3px);
+        border-radius: inherit;
+        background: linear-gradient(to bottom, #b01869a1 0%, #1352b1af 100%);
+        z-index: -1;
+        margin: -1px;
+      }
+    }
+  }
+}

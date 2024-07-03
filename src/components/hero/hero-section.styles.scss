@@ -1,0 +1,32 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+
+    &.bitcoin-token1 {
+      top: 150px;
+      left: 250px;
+    }
+
+    &.binance-token {
+      top: 220px;
+      right: 230px;
+    }
+
+    &.solana-token {
+      bottom: 100px;
+      left: 340px;
+    }
+
+    &.bitcoin-token2 {
+      bottom: 60px;
+      right: 400px;
+    }
+  }
+}

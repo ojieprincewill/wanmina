@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 120px 0 0;
+
+  .main-text {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+
+    .colored {
+      background: linear-gradient(to bottom, #6133a7 0%, #2f1798 100%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+  }
+
+  .sub-text {
+    text-align: center;
+    margin: 20px 0 0;
+    padding: 0;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .cta-btn-2 {
+    margin: 30px 0 0;
+
+    .discord-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 14px;
+      border: none;
+      border-radius: 6px;
+      outline: none;
+      padding: 12px 40px;
+      background-color: #b0186a;
+      color: #fff;
+      cursor: pointer;
+
+      .disc-icon {
+        font-size: 20px;
+        margin: 0 5px 0 0;
+        color: #fff;
+        vertical-align: middle;
+      }
+    }
+  }
+}
