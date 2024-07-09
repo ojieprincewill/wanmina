@@ -1,0 +1,53 @@
+.dev-container {
+  width: 90%;
+  margin: 0 auto;
+
+  .dev-grid {
+    display: grid;
+    grid-template-areas: "text image";
+    place-items: center;
+    margin: 150px 0;
+
+    &.reverse {
+      grid-template-areas: "image text";
+    }
+
+    .dev-text-cont {
+      width: 500px;
+      grid-area: text;
+
+      .dev-title {
+        font-size: 2.2rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: #fff;
+        margin: 0 0 20px;
+      }
+
+      .dev-quote {
+        font-size: 14px;
+        margin: 0;
+      }
+
+      .dev-text {
+        font-size: 14px;
+        line-height: 2;
+        color: #e6e6e6;
+        margin: 0;
+      }
+    }
+    .dev-image-cont {
+      grid-area: "image";
+      width: 500px;
+      height: 297px;
+      border-radius: 10px;
+      overflow: hidden;
+
+      .dev-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

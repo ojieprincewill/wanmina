@@ -1,0 +1,22 @@
+.contact-container {
+  width: 80%;
+  margin: 50px auto;
+
+  .contact-header {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    background: linear-gradient(to bottom, #b0186a 0%, #1351b1 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin: 0 0 20px;
+  }
+
+  .contact-text {
+    font-size: 14px;
+    text-align: center;
+    color: #e6e6e6;
+  }
+}

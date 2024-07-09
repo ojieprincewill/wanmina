@@ -20,6 +20,14 @@
       color: #fff;
       cursor: pointer;
 
+      &.active-navlink,
+      &:active {
+        background: linear-gradient(to bottom, #6133a7 0%, #2f1798 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+      }
+
       &:hover {
         background: linear-gradient(to bottom, #6133a7 0%, #2f1798 100%);
         -webkit-text-fill-color: transparent;

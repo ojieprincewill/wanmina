@@ -1,0 +1,51 @@
+.agnee-container {
+  width: 90%;
+  margin: 0 auto;
+
+  .agnee-grid {
+    display: grid;
+    grid-template-areas: "image text";
+    place-items: center;
+    margin: 150px 0 100px;
+
+    &.reverse {
+      grid-template-areas: "text image";
+      place-items: unset;
+      align-items: center;
+    }
+
+    .agnee-image-cont {
+      grid-area: "image";
+      width: 100%;
+      height: 450px;
+      border-radius: 10px;
+      overflow: hidden;
+
+      .agnee-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .agnee-text-cont {
+      width: 80%;
+      grid-area: text;
+
+      .agnee-title {
+        font-size: 2.2rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: #fff;
+        margin: 0 0 20px;
+      }
+
+      .agnee-text {
+        font-size: 14px;
+        line-height: 2;
+        color: #e6e6e6;
+        margin: 0;
+      }
+    }
+  }
+}

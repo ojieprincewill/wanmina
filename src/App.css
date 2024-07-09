@@ -22,3 +22,12 @@ img {
   vertical-align: middle;
   border-style: none;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #041023;
+  background-image: linear-gradient(to bottom, #6133a7 0%, #2f1798 100%);
+}
