@@ -4,7 +4,6 @@ export const QUESTIONS_DATA = [
     answer:
       "Its common for developers to be cheated in the web3 market by hiring overpriced staff that offers mediocre services. If you work with Wanmina, we offer you tested and trusted services, bringing you peerless service providers at the best price in the market.",
     isOpen: false,
-    isActive: false,
     id: 1,
   },
   {
@@ -12,7 +11,6 @@ export const QUESTIONS_DATA = [
     answer:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     isOpen: false,
-    isActive: false,
     id: 2,
   },
   {
@@ -21,7 +19,6 @@ export const QUESTIONS_DATA = [
     answer:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     isOpen: false,
-    isActive: false,
     id: 3,
   },
   {
@@ -29,7 +26,6 @@ export const QUESTIONS_DATA = [
     answer:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     isOpen: false,
-    isActive: false,
     id: 4,
   },
 ];

@@ -1,8 +1,4 @@
-import {
-  IoLogoTwitter,
-  IoLogoInstagram,
-  IoLogoLinkedin,
-} from "react-icons/io5";
+import { IoLogoTwitter, IoLogoLinkedin } from "react-icons/io5";
 
 export const TEAM_DATA = [
   {
@@ -12,7 +8,6 @@ export const TEAM_DATA = [
     name: "udezue cheta",
     twitter: <IoLogoTwitter />,
     linkedin: <IoLogoLinkedin />,
-    instagram: <IoLogoInstagram />,
     id: 1,
   },
   {
@@ -22,7 +17,6 @@ export const TEAM_DATA = [
     name: "udezue cheta",
     twitter: <IoLogoTwitter />,
     linkedin: <IoLogoLinkedin />,
-    instagram: <IoLogoInstagram />,
     id: 2,
   },
   {
@@ -32,7 +26,6 @@ export const TEAM_DATA = [
     name: "udezue cheta",
     twitter: <IoLogoTwitter />,
     linkedin: <IoLogoLinkedin />,
-    instagram: <IoLogoInstagram />,
     id: 3,
   },
   {
@@ -42,7 +35,6 @@ export const TEAM_DATA = [
     name: "udezue cheta",
     twitter: <IoLogoTwitter />,
     linkedin: <IoLogoLinkedin />,
-    instagram: <IoLogoInstagram />,
     id: 4,
   },
   {
@@ -52,7 +44,6 @@ export const TEAM_DATA = [
     name: "udezue cheta",
     twitter: <IoLogoTwitter />,
     linkedin: <IoLogoLinkedin />,
-    instagram: <IoLogoInstagram />,
     id: 5,
   },
   {
@@ -62,7 +53,6 @@ export const TEAM_DATA = [
     name: "udezue cheta",
     twitter: <IoLogoTwitter />,
     linkedin: <IoLogoLinkedin />,
-    instagram: <IoLogoInstagram />,
     id: 6,
   },
 ];

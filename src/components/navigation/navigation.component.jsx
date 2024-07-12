@@ -38,7 +38,7 @@ const Navigation = () => {
             location.pathname === "/team" ? "active-navlink" : ""
           }`}
         >
-          Team
+          Activities
         </Link>
         <Link
           to="/questions"

@@ -22,7 +22,6 @@ const FaqSection = () => {
           question={item.question}
           answer={item.answer}
           isOpen={item.isOpen}
-          isActive={item.isActive}
           onToggle={() => toggleItem(index)}
         />
       ))}

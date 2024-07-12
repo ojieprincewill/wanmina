@@ -3,13 +3,6 @@
   margin: 0 0 10px;
   border-bottom: 2px solid rgba(255, 255, 255, 0.041);
 
-  &.active {
-    background: linear-gradient(to bottom, #b0186a 0%, #1351b1 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
-
   .question {
     display: flex;
     justify-content: space-between;
