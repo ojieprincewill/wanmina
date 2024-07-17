@@ -3,7 +3,8 @@ import "./academy.styles.scss";
 
 const Academy = () => {
   const academyImage =
-    "https://github.com/ojieprincewill/Wanmina-Illustrations/blob/master/%231/image32.jpg?raw=true";
+    "https://github.com/ojieprincewill/Wanmina-Illustrations/blob/master/%234/image7.jpg?raw=true";
+
   return (
     <div className="academy-container">
       <div className="academy-text-cont">

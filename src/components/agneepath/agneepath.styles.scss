@@ -5,18 +5,17 @@
   .agnee-grid {
     display: grid;
     grid-template-areas: "image text";
-    place-items: center;
+    align-items: center;
+    gap: 50px;
     margin: 150px 0 100px;
 
     &.reverse {
       grid-template-areas: "text image";
-      place-items: unset;
-      align-items: center;
     }
 
     .agnee-image-cont {
       grid-area: "image";
-      width: 100%;
+      width: 500px;
       height: 450px;
       border-radius: 10px;
       overflow: hidden;
@@ -29,7 +28,6 @@
     }
 
     .agnee-text-cont {
-      width: 80%;
       grid-area: text;
 
       .agnee-title {

@@ -3,7 +3,7 @@ import "./work-process.styles.scss";
 
 const WorkProcess = () => {
   const workImage =
-    "https://github.com/ojieprincewill/Wanmina-Illustrations/blob/master/%231/image32.jpg?raw=true";
+    "https://github.com/ojieprincewill/Wanmina-Illustrations/blob/master/%234/image8.jpg?raw=true";
 
   return (
     <div className="work-container">

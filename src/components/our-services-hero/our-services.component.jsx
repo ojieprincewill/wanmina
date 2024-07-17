@@ -1,6 +1,7 @@
 import React from "react";
 import "./our-services.styles.scss";
 import { SERVICES_DATA } from "../../assets/services-data/services.data";
+import { Link } from "react-router-dom";
 
 const OurServices = () => {
   const serviceData = SERVICES_DATA;
@@ -10,8 +11,8 @@ const OurServices = () => {
         our <span className="colored">services</span> includes
       </p>
       <div className="services-grid">
-        {serviceData.map((data, id) => (
-          <div className="service-card" key={id}>
+        {serviceData.map((data) => (
+          <div className="service-card" key={data.id}>
             <div className="services-image-cont">
               <img
                 src={data.imageUrl}
@@ -19,7 +20,12 @@ const OurServices = () => {
                 className="service-image"
               />
             </div>
-            <p className="service-title">{data.title}</p>
+            <Link
+              to={`/services/${data.id}`}
+              onClick={() => window.scrollTo(0, 0)}
+            >
+              <p className="service-title">{data.title}</p>
+            </Link>
             {data.subTitles.map((subtitle) => (
               <div className="subtitles-cont">
                 <span className="subtitle">{subtitle}</span>

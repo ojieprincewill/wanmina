@@ -1,31 +1,36 @@
 export const QUESTIONS_DATA = [
   {
-    question: "How does Wanmina help maximize my profit?",
+    question: "Why should I use Wanmina?",
     answer:
-      "Its common for developers to be cheated in the web3 market by hiring overpriced staff that offers mediocre services. If you work with Wanmina, we offer you tested and trusted services, bringing you peerless service providers at the best price in the market.",
+      "Our understanding of the space, versatility of our service, and legitimacy of our brand make us the perfect solution to all your marketing and design problems.",
     isOpen: false,
     id: 1,
   },
   {
-    question: "How safe are Wanmina’s services?",
+    question: "How does Wanmina help maximize my profit?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Its common for developers to be cheated in the web3 market by hiring overpriced staff that offers mediocre services. If you work with Wanmina, we offer you tested and trusted services, bringing you peerless service providers at the best price in the market.",
     isOpen: false,
     id: 2,
   },
   {
-    question:
-      "What areas or feature of a Web 3.0 platform can Wanmina help with?",
+    question: "How safe are Wanmina’s services?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Wanmina takes pride in the legitimacy and quality of our service. which is why we put in the effort to earn your trust, like doxing all team members, and our company is registered under the Federal Republic of Nigeria.",
     isOpen: false,
     id: 3,
   },
   {
-    question: "Are there options for customizing Wanmina’s services?",
+    question: "Does the look of my product really matter?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Yes, it does. How your product looks will heavily influence how your users experience it. A fully functional website with poor product design will be seen as subpar.",
     isOpen: false,
     id: 4,
+  },
+  {
+    question: "Are Wanmina’s services customizable?",
+    answer: `Wanmina’s services are tailored to suit each individual project and its needs. So our services will depend on what your project may require or request. To make further inquiries, visit the <a href="/contact">Contact Us</a> page`,
+    isOpen: false,
+    id: 5,
   },
 ];

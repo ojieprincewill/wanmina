@@ -11,7 +11,9 @@ const FaqItem = ({ question, answer, isOpen, onToggle }) => {
           {isOpen ? <RxMinusCircled /> : <RxPlusCircled />}
         </span>
       </div>
-      {isOpen && <div className="answer">{answer}</div>}
+      {isOpen && (
+        <div className="answer" dangerouslySetInnerHTML={{ __html: answer }} />
+      )}
     </div>
   );
 };

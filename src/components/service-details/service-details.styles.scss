@@ -1,0 +1,32 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px 0;
+  padding: 0 100px;
+
+  .breadlink {
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    padding: 0 5px;
+
+    .arrow {
+      padding-left: 5px;
+    }
+
+    &:hover {
+      background: linear-gradient(to right, #b0186a 0%, #2f1798 100%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+  }
+
+  .breadtitle {
+    font-size: 13px;
+    text-transform: capitalize;
+    color: #e6e6e7;
+    padding-left: 5px;
+  }
+}

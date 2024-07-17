@@ -22,10 +22,12 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    place-items: center;
     gap: 25px;
 
     .team-card {
       background: #440436;
+      // background: #31073a;
       //   border: 1px solid #e1a642;
       border-radius: 20px;
       padding: 15px;
@@ -70,17 +72,18 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          background-color: #04102390;
-          //   background-color: rgba(0, 0, 0, 0.5);
+          // background-color: #04102390;
+          background-color: rgba(0, 0, 0, 0.5);
           transform: scale(0);
           transition: all 0.3s ease;
           z-index: 2;
 
           .social-icon {
-            font-size: 20px;
+            font-size: 30px;
             margin: 0 10px;
             color: #e6e6e6;
             cursor: pointer;
+            transition: color 0.3s ease;
 
             &:hover {
               color: #e1a642;

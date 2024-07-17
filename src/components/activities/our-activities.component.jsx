@@ -3,7 +3,7 @@ import "./our-activities.styles.scss";
 
 const OurActivities = () => {
   const activityImage =
-    "https://github.com/ojieprincewill/Wanmina-Illustrations/blob/master/%231/image32.jpg?raw=true";
+    "https://github.com/ojieprincewill/Wanmina-Illustrations/blob/master/%234/image6.jpg?raw=true";
   return (
     <div className="activity-container">
       <div className="activity-text-cont">

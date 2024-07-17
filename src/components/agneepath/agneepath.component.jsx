@@ -15,7 +15,7 @@ const Agneepath = () => {
       title: "onboarding 150+ staff",
       text: "Wanmina in partnership with Nirvana, onboarded more than 150 skilled defi personnel to their staff board and was able to provide more than 50 jobs. We were able to offer earning opportunities for 50+ hard working people and a hands-on learning experience for all members of that onboarding program.",
       imageUrl:
-        "https://github.com/ojieprincewill/Wanmina-Illustrations/blob/master/%231/image31.jpg?raw=true",
+        "https://github.com/ojieprincewill/Wanmina-Illustrations/blob/master/%234/image10.jpg?raw=true",
     },
   ];
 

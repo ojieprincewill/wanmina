@@ -5,7 +5,7 @@ import OurActivities from "../../components/activities/our-activities.component"
 import Agneepath from "../../components/agneepath/agneepath.component";
 import FooterSection from "../../components/footer-section/footer-section.component";
 
-const TeamPage = () => {
+const ActivitiesPage = () => {
   return (
     <>
       <Navigation />
@@ -17,4 +17,4 @@ const TeamPage = () => {
   );
 };
 
-export default TeamPage;
+export default ActivitiesPage;

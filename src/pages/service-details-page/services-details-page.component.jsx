@@ -1,18 +1,16 @@
 import React from "react";
 import Navigation from "../../components/navigation/navigation.component";
-import OurServices from "../../components/our-services-hero/our-services.component";
-import WorkProcess from "../../components/work-process/work-process.component";
+import ServiceDetails from "../../components/service-details/service-details.component";
 import FooterSection from "../../components/footer-section/footer-section.component";
 
-const ServicesPage = () => {
+const ServiceDetailsPage = () => {
   return (
     <>
       <Navigation />
-      <OurServices />
-      <WorkProcess />
+      <ServiceDetails />
       <FooterSection />
     </>
   );
 };
 
-export default ServicesPage;
+export default ServiceDetailsPage;

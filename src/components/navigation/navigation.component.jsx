@@ -27,13 +27,13 @@ const Navigation = () => {
         <Link
           to="/services"
           className={`navlink ${
-            location.pathname === "/services" ? "active-navlink" : ""
+            location.pathname.includes("/services") && "active-navlink"
           }`}
         >
           Services
         </Link>
         <Link
-          to="/team"
+          to="/activities"
           className={`navlink ${
             location.pathname === "/team" ? "active-navlink" : ""
           }`}

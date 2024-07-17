@@ -3,7 +3,7 @@ import "./choose-us.styles.scss";
 
 const Choose = () => {
   const chooseImage =
-    "https://github.com/ojieprincewill/Wanmina-Illustrations/blob/master/%231/image33.jpg?raw=true";
+    "https://github.com/ojieprincewill/Wanmina-Illustrations/blob/master/%234/image4.png?raw=true";
   return (
     <div className="choose-container">
       <div className="choose-image-cont">

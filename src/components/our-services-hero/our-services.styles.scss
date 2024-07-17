@@ -62,6 +62,13 @@
         font-weight: bold;
         margin: 10px 0 0;
         text-transform: capitalize;
+
+        &:hover {
+          background: linear-gradient(to right, #b0186a 0%, #2f1798 100%);
+          -webkit-text-fill-color: transparent;
+          -webkit-background-clip: text;
+          background-clip: text;
+        }
       }
 
       .subtitles-cont {

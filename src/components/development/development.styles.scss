@@ -6,7 +6,7 @@
     display: grid;
     grid-template-areas: "text image";
     place-items: center;
-    margin: 150px 0;
+    margin: 100px 0 150px;
 
     &.reverse {
       grid-template-areas: "image text";
