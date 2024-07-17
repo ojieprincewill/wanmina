@@ -8,24 +8,16 @@
     padding: 0 10px;
     white-space: nowrap;
     font-size: 20px;
-    // background: linear-gradient(to right, #724da9 0%, #706798 100%);
-    // background: linear-gradient(
-    //   to right,
-    //   #e1a742cb 0%,
-    //   #d78f55ce 30%,
-    //   #d07c63db 53%,
-    //   #c66478b2 60%,
-    //   #8a097be2 100%
-    // );
-    // -webkit-text-fill-color: transparent;
-    // -webkit-background-clip: text;
-    // background-clip: text;
-    color: #fff;
-    // color: transparent;
-    // -webkit-text-stroke-width: 0.5px;
-    // -webkit-text-stroke-color: #fff;
-    // text-stroke-color: #fff;
-    // -webkit-text-stroke-color: #e1a642;
-    // text-stroke-color: #e1a642;
+    background: linear-gradient(
+      to right,
+      #e1a742cb 0%,
+      #d78f55ce 30%,
+      #d07c63db 53%,
+      #c66478b2 60%,
+      #8a097be2 100%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
   }
 }

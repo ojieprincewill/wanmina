@@ -7,12 +7,12 @@ import ActivitiesPage from "./pages/activities-page/activities-page.component";
 import QuestionsPage from "./pages/faq-page/faq-page.component";
 import ContactPage from "./pages/contact-page/contact-page.component";
 import ServiceDetailsPage from "./pages/service-details-page/services-details-page.component";
-// import Gradient from "./components/gradient-background/gradient.component";
+import Gradient from "./components/gradient-background/gradient.component";
 
 function App() {
   return (
     <>
-      {/* <Gradient /> */}
+      <Gradient />
       <Routes>
         <Route index element={<HomePage />} />
         <Route path="/" element={<HomePage />} />

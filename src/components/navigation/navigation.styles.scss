@@ -22,14 +22,28 @@
 
       &.active-navlink,
       &:active {
-        background: linear-gradient(to bottom, #6133a7 0%, #2f1798 100%);
+        background: linear-gradient(
+          to right,
+          #e1a742cb 0%,
+          #d78f55ce 30%,
+          #d07c63db 53%,
+          #c66478b2 60%,
+          #8a097be2 100%
+        );
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         background-clip: text;
       }
 
       &:hover {
-        background: linear-gradient(to bottom, #6133a7 0%, #2f1798 100%);
+        background: linear-gradient(
+          to right,
+          #e1a742cb 0%,
+          #d78f55ce 30%,
+          #d07c63db 53%,
+          #c66478b2 60%,
+          #8a097be2 100%
+        );
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         background-clip: text;

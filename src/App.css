@@ -7,35 +7,6 @@
 
 body {
   background-color: #041023;
-  /* background: radial-gradient(circle, #021430, #301339, #2e0629); */
-  /* background: linear-gradient(120deg, #3f235d 25%, #290b3d 75%, #041023 100%); */
-  /* background: radial-gradient(circle, #3f235d 25%, #290b3d 75%, #041023 100%); */
-  /* background: linear-gradient(135deg, #0d0d2b, #1a1a40, #2e2e5e, #3b3b73); */
-  /* background: radial-gradient(circle, #2c003e, #3b0066, #1a004d, #000033); */
-  /* background: repeating-linear-gradient(
-    45deg,
-    #2c003e,
-    #3b0066 20%,
-    #1a004d 40%,
-    #000033 60%
-  ); */
-  /* background: linear-gradient(135deg, #2c003e, #3b0066, #1a004d, #000033); */
-  /* background: radial-gradient(
-    ellipse at center,
-    #2c003e,
-    #1a004d,
-    #3b0066,
-    #000033
-  ); */
-  /* background: repeating-linear-gradient(
-    45deg,
-    #2c003e,
-    #3b0066 20%,
-    #1a004d 40%,
-    #000033 60%
-  ); */
-  /* background: radial-gradient(circle, #2c003e, #3b0066, #1a004d, #000033); */
-  /* backdrop-filter: blur(5px); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

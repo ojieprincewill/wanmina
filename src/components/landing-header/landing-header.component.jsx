@@ -1,6 +1,6 @@
 import React from "react";
 import "./landing-header.styles.scss";
-import { FaDiscord } from "react-icons/fa6";
+import { IoGlobeOutline } from "react-icons/io5";
 
 const LandingHeader = () => {
   return (
@@ -16,7 +16,7 @@ const LandingHeader = () => {
       </p>
       <div className="cta-btn-2">
         <button className="discord-btn">
-          <FaDiscord className="disc-icon" />
+          <IoGlobeOutline className="disc-icon" />
           join community
         </button>
       </div>

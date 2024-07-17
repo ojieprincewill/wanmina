@@ -1,15 +1,15 @@
 export const QUESTIONS_DATA = [
   {
-    question: "Why should I use Wanmina?",
+    question: "How does Wanmina help maximize my profit?",
     answer:
-      "Our understanding of the space, versatility of our service, and legitimacy of our brand make us the perfect solution to all your marketing and design problems.",
+      "Its common for developers to be cheated in the web3 market by hiring overpriced staff that offers mediocre services. If you work with Wanmina, we offer you tested and trusted services, bringing you peerless service providers at the best price in the market.",
     isOpen: false,
     id: 1,
   },
   {
-    question: "How does Wanmina help maximize my profit?",
+    question: "Why should I use Wanmina?",
     answer:
-      "Its common for developers to be cheated in the web3 market by hiring overpriced staff that offers mediocre services. If you work with Wanmina, we offer you tested and trusted services, bringing you peerless service providers at the best price in the market.",
+      "Our understanding of the space, versatility of our service, and legitimacy of our brand make us the perfect solution to all your marketing and design problems.",
     isOpen: false,
     id: 2,
   },
