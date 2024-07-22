@@ -2,6 +2,35 @@
   width: 90%;
   margin: 0 auto;
 
+  .design-header-container {
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+
+    .design-header {
+      font-size: 2.2rem;
+      font-weight: 700;
+      text-transform: capitalize;
+      background: linear-gradient(to bottom, #b0186a 0%, #2f1798 100%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+      margin: 0 0 10px;
+    }
+
+    .design-quote {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .design-header-text {
+      font-size: 14px;
+      line-height: 2;
+      color: #e6e6e6;
+      margin: 0;
+    }
+  }
+
   .design-grid {
     display: grid;
     grid-template-areas: "text image";
@@ -22,11 +51,6 @@
         text-transform: capitalize;
         color: #fff;
         margin: 0 0 20px;
-      }
-
-      .design-quote {
-        font-size: 14px;
-        margin: 0;
       }
 
       .design-text {

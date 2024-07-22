@@ -113,4 +113,101 @@
       }
     }
   }
+  .sliced {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    .team-card {
+      width: 326.77px;
+      background: #440436;
+      // background: #31073a;
+      //   border: 1px solid #e1a642;
+      border-radius: 20px;
+      padding: 15px;
+      margin: 0 0 20px;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        // filter: blur(3px);
+        border-radius: inherit;
+        background: linear-gradient(
+          to bottom right,
+          #e1a742cb 0%,
+          #d78f55ce 30%,
+          #d07c63db 53%,
+          #c66478b2 60%,
+          #8a097be2 100%
+        );
+        z-index: -1;
+        margin: -1.2px;
+      }
+
+      .team-image-cont {
+        width: 100%;
+        height: 350px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 0 0 20px;
+        position: relative;
+
+        .team-image {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        .socials-overlay {
+          position: absolute;
+          inset: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          // background-color: #04102390;
+          background-color: rgba(0, 0, 0, 0.5);
+          transform: scale(0);
+          transition: all 0.3s ease;
+          z-index: 2;
+
+          .social-icon {
+            font-size: 30px;
+            margin: 0 10px;
+            color: #e6e6e6;
+            cursor: pointer;
+            transition: color 0.3s ease;
+
+            &:hover {
+              color: #e1a642;
+            }
+          }
+        }
+
+        &:hover {
+          .socials-overlay {
+            transform: scale(1);
+          }
+        }
+      }
+
+      .title {
+        font-size: 16px;
+        font-weight: 550;
+        color: #fff;
+        margin: 5px 0;
+      }
+
+      .text {
+        font-size: 14px;
+        text-transform: capitalize;
+        color: #e6e6e6;
+        margin: 0 0 3px;
+      }
+    }
+  }
 }

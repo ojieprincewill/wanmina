@@ -3,30 +3,39 @@
   height: 100vh;
   position: relative;
 
-  img {
+  .bitcoin-token1 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    top: 160px;
+    left: 250px;
+  }
+
+  .binance-token {
     position: absolute;
     width: 20px;
     height: 20px;
     object-fit: contain;
+    top: 220px;
+    right: 230px;
+  }
 
-    &.bitcoin-token1 {
-      top: 150px;
-      left: 250px;
-    }
+  .solana-token {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    bottom: 100px;
+    left: 340px;
+  }
 
-    &.binance-token {
-      top: 220px;
-      right: 230px;
-    }
-
-    &.solana-token {
-      bottom: 100px;
-      left: 340px;
-    }
-
-    &.bitcoin-token2 {
-      bottom: 60px;
-      right: 400px;
-    }
+  .bitcoin-token2 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    bottom: 60px;
+    right: 400px;
   }
 }

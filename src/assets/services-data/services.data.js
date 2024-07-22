@@ -7,7 +7,12 @@ export const SERVICES_DATA = [
   {
     title: "community management",
     details: <Management />,
-    subTitles: ["Social media managers", "Shillers", "Advisers", "Moderators"],
+    subTitles: [
+      "Social media management",
+      "Community staffing",
+      "Automated community moderation & security",
+      "Community growth",
+    ],
     imageUrl:
       "https://github.com/ojieprincewill/Wanmina-Illustrations/blob/master/%231/image9.jpg?raw=true",
     id: 1,
@@ -17,9 +22,11 @@ export const SERVICES_DATA = [
     details: <Marketing />,
     subTitles: [
       "Influencer marketing",
-      "Social media marketing",
       "Content marketing",
-      "Collaborations",
+      "Email marketing",
+      "and more...",
+      // "Token listing",
+      // "Content writing",
     ],
     imageUrl:
       "https://github.com/ojieprincewill/Wanmina-Illustrations/blob/master/%231/image18.jpg?raw=true",
@@ -28,12 +35,7 @@ export const SERVICES_DATA = [
   {
     title: "web development",
     details: <Development />,
-    subTitles: [
-      "Ui/Ux designers",
-      "Fullstack developers",
-      "Cybersecurity experts",
-      "AI programmers",
-    ],
+    subTitles: ["Website development", "Ui/Ux design", "Website security"],
     imageUrl:
       "https://github.com/ojieprincewill/Wanmina-Illustrations/blob/master/%231/image37.jpg?raw=true",
     id: 3,
@@ -41,7 +43,12 @@ export const SERVICES_DATA = [
   {
     title: "graphic design",
     details: <Design />,
-    subTitles: ["Banners and flyers", "NFT creators", "3D modeling experts"],
+    subTitles: [
+      "Logo design",
+      "Product design",
+      "NFT art",
+      "Banner and profile design",
+    ],
     imageUrl:
       "https://github.com/ojieprincewill/Wanmina-Illustrations/blob/master/%231/image34.jpg?raw=true",
     id: 4,

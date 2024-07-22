@@ -1,5 +1,6 @@
 import React from "react";
 import "./community.styles.scss";
+import { Link } from "react-router-dom";
 
 const Community = () => {
   const imageUrl =
@@ -24,7 +25,9 @@ const Community = () => {
           collaborate. The community offers immense networking opportunities and
           educational resources for anyone looking to develop their skills.
         </p>
-        <button className="join-btn">join us now</button>
+        <Link to="https://linktr.ee/Wanmina?utm_source=linktree_profile_share&ltsid=4d0649dc-f224-4a16-8817-14f9feda2134">
+          <button className="join-btn">join us now</button>
+        </Link>
       </div>
     </div>
   );

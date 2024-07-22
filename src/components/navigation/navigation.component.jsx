@@ -4,9 +4,15 @@ import { Link, useLocation } from "react-router-dom";
 
 const Navigation = () => {
   const location = useLocation();
+  const logoUrl =
+    "https://github.com/ojieprincewill/Wanmina-Illustrations/blob/master/%234/image11.png?raw=true";
 
   return (
     <div className="navigation">
+      <Link to="/" className="logo-container">
+        <img src={logoUrl} alt="wanmina-logo" className="logo" />
+      </Link>
+
       <div className="navlinks">
         <Link
           to="/"
@@ -35,7 +41,7 @@ const Navigation = () => {
         <Link
           to="/activities"
           className={`navlink ${
-            location.pathname === "/team" ? "active-navlink" : ""
+            location.pathname === "/activities" ? "active-navlink" : ""
           }`}
         >
           Activities
