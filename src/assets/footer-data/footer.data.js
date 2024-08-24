@@ -38,7 +38,7 @@ export const FOOTER_DATA = [
       },
       { text: "LinkedIn", target: "https://www.linkedin.com/company/wanmina/" },
     ],
-    socialIcons: [
+    socials: [
       {
         icon: <IoLogoTwitter />,
         iconTarget: "https://x.com/Wanminafirm?t=laCFGXgIV1991T-wjrLWVA&s=09",
